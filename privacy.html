@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title><meta name="description" content="How Clipper Automation handles data from Google and YouTube."><link rel="stylesheet" href="/style.css"></head>
+<body><main>
+<nav><a href="/">Home</a><a href="/privacy.html">Privacy policy</a><a href="/terms.html">Terms of service</a></nav>
+<h1>Privacy policy</h1>
+<p class="sub">Clipper Automation · Last updated 25 October 2026</p>
+
+<p>Clipper Automation ("the app") is a personal tool run by its owner on their own computer to upload clips to their own YouTube channel. This policy explains what data the app uses and what it does with it.</p>
+
+<h2>YouTube API Services</h2>
+<p>The app uses YouTube API Services. By using the app you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Data the app accesses</h2>
+<ul>
+  <li><b>Google sign-in token.</b> When the owner signs in, Google gives the app an OAuth token with one scope, <code>https://www.googleapis.com/auth/youtube.upload</code>. The app uses it only to upload videos to the signed-in user's own channel.</li>
+  <li><b>Public video information.</b> To find Creative Commons videos, the app reads public data through the YouTube Data API: titles, channel names, view counts, durations and licence information.</li>
+  <li><b>Upload results.</b> After an upload, the app keeps the new video's ID so it doesn't upload the same clip twice.</li>
+</ul>
+<p>The app does not access the user's email address, contacts, comments, subscriptions, watch history, analytics or any other account data.</p>
+
+<h2>How the data is used</h2>
+<p>The data is used only to find, schedule and upload clips for the owner's channel. It is not used for advertising, it is not sold, and it is not shared with anyone. No person other than the owner sees it.</p>
+<p>The app's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Where the data is stored</h2>
+<p>Everything is stored only on the owner's own computer: the sign-in token, a local database of videos and uploads, and the clip files. The app has no server, and the data is not sent anywhere except to Google (to upload) and to the owner's private Telegram chat (to ask for approval of public video titles and links). The app does not use cookies or analytics.</p>
+
+<h2>Keeping and deleting data</h2>
+<p>Public video information and upload records are kept while the app is in use. Downloaded source videos and finished clips can be deleted at any time. The owner can delete all stored data by deleting the app's <code>data</code> folder.</p>
+<p>To revoke the app's access to your Google account at any time, go to <a href="https://myaccount.google.com/permissions">Google Account → Third-party apps &amp; services</a> and remove Clipper Automation. The stored token then stops working, and you can delete it by deleting the app's <code>data/tokens</code> folder.</p>
+
+<h2>Children</h2>
+<p>The app is not meant for children and does not knowingly collect data from them.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+<h2>Contact</h2>
+<p>For questions about this policy, <a href="https://github.com/Poeticgangstar/Poeticgangstar.github.io/issues">open an issue</a> on this site's GitHub page.</p>
+<footer>Clipper Automation · Questions: <a href="https://github.com/Poeticgangstar/Poeticgangstar.github.io/issues">open an issue</a></footer>
+</main></body></html>
